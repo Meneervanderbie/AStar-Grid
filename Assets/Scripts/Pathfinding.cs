@@ -53,7 +53,7 @@ public class Pathfinding {
                 }
                 if (!isInToDo(tile)) {
                     todo.Add(tile);
-                }
+                } 
                 //Debug.Log("Calculating distances...");
                 tile.calculateDistances(distanceFromStart, endPos, current);
             }
